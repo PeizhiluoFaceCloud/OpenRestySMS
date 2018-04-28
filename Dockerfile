@@ -1,7 +1,7 @@
 #Dockerfile
-FROM openresty_face/base:v0.01
-#FROM daocloud.io/geyijun/openresty_face/base:v0.01
-MAINTAINER geyijun<geyijun@xiongmaitech.com>
+#FROM openresty_face/base:v0.01
+FROM daocloud.io/peizhiluo007/openresty:latest
+MAINTAINER peizhiluo007<25159673@qq.com>
 
 #采用supervisor来管理多任务
 #配置文件的路径变化了(since Supervisor 3.3.0)
